@@ -1,26 +1,18 @@
-<!-- AUTOMATION VALIDATION: 2026-04-23 - automation of development confirmed for this repo -->
-# Multi-Site Development Environment Setup Scripts
+# Forseti DevOps
 
-**Last Updated:** February 6, 2026
+Standalone repository for operational scripts, environment setup, database handling, and deployment helpers across Forseti systems.
 
-This directory contains scripts and documentation for setting up the multi-site Drupal development environment supporting both St. Louis Integration and Theory of Conspiracies websites, including the **Complete H3 Geolocation Pipeline** with **100% Silver Layer Processing Achievement** and **Production-Ready Database Exports**.
+## What lives here
 
-## 🎯 Processing Achievement Status
+- local and production setup scripts
+- backup and restore workflows
+- environment bootstrap and verification helpers
+- production reconciliation and sync tooling
+- Copilot and OpenClaw-oriented operator scripts
 
-**MAJOR MILESTONE ACHIEVED**: 100% H3 Silver Layer Processing Completion
+## Repo note
 
-### Current Status
-- **H3 Coverage**: 100% of crime incident data processed through Bronze → Silver → Gold layers
-- **Database Size**: 3,406,194 total records across all processing layers
-- **Export System**: Production-ready 457MB compressed database exports available
-- **Processing Pipeline**: Fully validated ObjectID-based transformation complete
-- **Data Quality**: All records successfully geocoded and H3-indexed at optimal granularity levels
-
-### Available Exports
-- **Location**: `/h3-geolocation/database-exports/dumps/`
-- **Files**: Structure + Data exports with compression and validation
-- **Size**: 457MB compressed, ready for cloud storage backup
-- **Documentation**: Complete restoration and deployment guides included
+This is the operational tooling repo, not a single Drupal module or product application.
 
 ## Quick Start
 
